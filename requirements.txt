@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-anthropic
+google-generativeai
 streamlit
 python-dotenv
+requests

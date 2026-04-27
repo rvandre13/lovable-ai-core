@@ -31,7 +31,7 @@ if pergunta:
         
         try:
             # Envia a requisição POST para o nosso back-end FastAPI
-            res = requests.post("http://127.0.0.1:8000/chat", json={"mensagem": pergunta})
+            res = requests.post("https://lovable-ai-core.onrender.com/chat", json={"mensagem": pergunta})
             
             if res.status_code == 200:
                 texto_resposta = res.json()["resposta"]
